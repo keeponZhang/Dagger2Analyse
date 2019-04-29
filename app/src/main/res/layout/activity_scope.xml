@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+<LinearLayout
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.demo.lizejun.dagger2sample.chapter4.activity.ScopeActivity">
+    <Button
+        android:textAllCaps="false"
+        android:onClick="getMyData"
+        android:text="getMyData"
+        android:gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:id="@+id/tv_scope_activity"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <fragment
+        android:id="@+id/fragment_scope"
+        android:name="com.demo.lizejun.dagger2sample.chapter4.fragment.ScopeFragment"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"/>
+</LinearLayout>
+</ScrollView>
