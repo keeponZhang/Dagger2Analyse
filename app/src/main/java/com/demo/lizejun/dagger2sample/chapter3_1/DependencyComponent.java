@@ -1,4 +1,4 @@
-package com.demo.lizejun.dagger2sample.chapter3;
+package com.demo.lizejun.dagger2sample.chapter3_1;
 
 import dagger.Component;
 

@@ -3,8 +3,21 @@ package com.demo.lizejun.dagger2sample.chapter1;
 import dagger.Component;
 
 @Component(modules = {RemoteSourceModule.class})
-//@Component()  //Component无内容，DataRepository_MembersInjector类的create(Provider<LocalSource> mLocalSourceProvider)方法只有一个参数
-//@Component(modules = {StringModule.class})  //实例化在类中加Inject，有参数的话，也要moudle;module只配置了参数的话，实体bean的构造函数的	@Inject不能去掉
+//@Component()
 public interface SourceComponent {
-    public void inject(DataRepository dataRepository);
+     void inject(YouXianjiActivity youXianjiActivity);
 }
+//无module
+//    private void initialize(final DaggerSourceComponent.Builder builder) {
+//        this.youXianjiActivityMembersInjector =
+//                YouXianjiActivity_MembersInjector.create(RemoteSource_Factory.create());
+//    }
+
+//有module
+//private void initialize(final DaggerSourceComponent.Builder builder) {
+//     this.provideRemoteSourcetestProvider =
+//             RemoteSourceModule_ProvideRemoteSourcetestFactory.create(builder.remoteSourceModule);
+//     this.youXianjiActivityMembersInjector =
+//             YouXianjiActivity_MembersInjector.create(provideRemoteSourcetestProvider);
+//}
+//可见，module 是优先的

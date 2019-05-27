@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
           package="com.demo.lizejun.dagger2sample">
-	<!--application name 要改变 chapter4和chapter5-->
+
+	<!-- application name 要改变 chapter4和chapter5 -->
 	<application
 		android:name=".chapter4.app.ScopeApp"
 		android:allowBackup="true"
@@ -17,16 +18,22 @@
 				<category android:name="android.intent.category.LAUNCHER"/>
 			</intent-filter>
 		</activity>
-		<activity android:name=".chapter1.RepositoryActivity">
+		<activity android:name=".chapter1.YouXianjiActivity">
 		</activity>
 		<activity android:name=".chapter4.activity.ScopeActivity">
 		</activity>
 		<activity android:name=".chapter2.QualifierActivity">
 		</activity>
-		<activity android:name=".chapter3.ComponentActivity">
+		<activity android:name=".chapter3_1.ComponentActivity">
 		</activity>
-		<activity android:name=".chapter4_1.ScopeActivity1"></activity>
-		<activity android:name=".chapter5.HomeActivity"></activity>
+		<activity android:name=".chapter4_1.ScopeActivity1"/>
+		<activity android:name=".chapter5.HomeActivity"/>
+		<activity android:name=".chapter0.OnlyInjectActivity">
+		</activity>
+		<activity android:name=".chapter0_1.OnlyInjectYoucanActivity">
+		</activity>
+		<activity android:name=".chapter3.DependencyComponentActivity">
+		</activity>
 	</application>
 
 </manifest>

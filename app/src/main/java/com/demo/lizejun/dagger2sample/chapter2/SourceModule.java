@@ -12,7 +12,7 @@ public class SourceModule {
     //一般来说，使用@Qulifier是比较标准的方式
 
     @Provides
-    @Local
+    @Local//解决依赖迷失，module跟实例化的地方的Qualifier需要配对（这里是用创建别名的方法，也可以用@Named）
 //    @Named("Local")
     public Source provideLocalSource() {
         return new LocalSource();

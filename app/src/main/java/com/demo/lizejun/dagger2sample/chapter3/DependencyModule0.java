@@ -4,10 +4,10 @@ import dagger.Module;
 import dagger.Provides;
 
 @Module
-public class SourceModule {
+public class DependencyModule0 {
 
     @Provides
-    LocalSource provideLocalSource() {
-        return new LocalSource();
+    DependencySource0 provideDependencySource() {
+        return new DependencySource0();
     }
 }
