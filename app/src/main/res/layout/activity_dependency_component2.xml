@@ -5,10 +5,6 @@
 	xmlns:tools="http://schemas.android.com/tools"
 	android:layout_width="match_parent"
 	android:layout_height="match_parent"
-	tools:context=".chapter3.DependencyComponentActivity">
-	<TextView
-		android:textAllCaps="false"
-		android:text="dependency"
-		android:layout_width="wrap_content"
-		android:layout_height="wrap_content"/>
+	tools:context=".chapter3.other.DependencyComponentActivity2">
+
 </android.support.constraint.ConstraintLayout>

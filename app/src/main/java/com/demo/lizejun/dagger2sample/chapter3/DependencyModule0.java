@@ -10,4 +10,8 @@ public class DependencyModule0 {
     DependencySource0 provideDependencySource() {
         return new DependencySource0();
     }
+    @Provides
+    String provideString() {
+        return "providerString";
+    }
 }

@@ -1,12 +1,14 @@
-package com.demo.lizejun.dagger2sample.chapter3;
+package com.demo.lizejun.dagger2sample.chapter3.other;
 
+
+import com.demo.lizejun.dagger2sample.chapter3.DependencyComponent0;
 
 import dagger.Component;
 
 //SourceComponent依赖 DependencyComponent0
-@Component(dependencies = DependencyComponent0.class)
-public interface SourceComponent0 {
-     void inject(DependencyComponentActivity activity);
+@Component(dependencies = {DependencyComponent0.class,DependencyComponent1.class})
+public interface SourceComponent1 {
+     void inject(DependencyComponentActivity2 activity);
 }
 
 //SourceComponent的Builder类提供dependencyComponent0方法
@@ -26,7 +28,6 @@ public interface SourceComponent0 {
 //     }
 
 //依赖的类和方法会生成一个类，构造函数是DependencyComponent0，其实这是一个factory， get方法拿的东西其实是通过构造函数传进来的dependencyComponent0调用它的getDependencySource
-// dependencyComponent0.getDependencySource(),最终是所以来的compoent通过它的module的方法生成的factory来拿
 //class com_demo_lizejun_dagger2sample_chapter3_DependencyComponent0_getDependencySource
 //        implements Provider<DependencySource0> {
 //     private final DependencyComponent0 dependencyComponent0;

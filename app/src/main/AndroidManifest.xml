@@ -34,6 +34,8 @@
 		</activity>
 		<activity android:name=".chapter3.DependencyComponentActivity">
 		</activity>
+		<activity android:name=".chapter3.other.DependencyComponentActivity2">
+		</activity>
 	</application>
 
 </manifest>
