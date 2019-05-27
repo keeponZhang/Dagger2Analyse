@@ -10,5 +10,6 @@ import dagger.Component;
 public interface FuComponent1 {
     //父类注入的对象是FuComponentActivity
      void inject(FuComponentActivity activity);
+     //如果SubComponent1没有用Subcomponent，会报错
      SubComponent1 getSubSourceComponent1();
 }
