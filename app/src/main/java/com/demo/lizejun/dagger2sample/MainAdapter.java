@@ -12,8 +12,8 @@ import com.demo.lizejun.dagger2sample.chapter0_2.OnlyInjectYoucan2Activity;
 import com.demo.lizejun.dagger2sample.chapter1.YouXianjiActivity;
 import com.demo.lizejun.dagger2sample.chapter2.QualifierActivity;
 import com.demo.lizejun.dagger2sample.chapter3.DependencyComponentActivity;
+import com.demo.lizejun.dagger2sample.chapter3_1.SubComponentActivity;
 import com.demo.lizejun.dagger2sample.chapter4.activity.ScopeActivity;
-import com.demo.lizejun.dagger2sample.chapter4_1.ScopeActivity1;
 import com.demo.lizejun.dagger2sample.chapter5.HomeActivity;
 import com.demo.lizejun.dagger2sample.utils.Utils;
 
@@ -62,13 +62,13 @@ public class MainAdapter extends RecyclerView.Adapter<MainAdapter.MainViewHolder
                     case 5:
                         Utils.startActivity(v.getContext(),DependencyComponentActivity.class);
                         break;
-                    case 41:
-                        Utils.startActivity(v.getContext(), ScopeActivity1.class);
+                    case 6:
+                        Utils.startActivity(v.getContext(), SubComponentActivity.class);
                         break;
                     case 51:
                         Utils.startActivity(v.getContext(), ScopeActivity.class);
                         break;
-                    case 6:
+                    case 61:
                         Utils.startActivity(v.getContext(), HomeActivity.class);
                         break;
                     default:

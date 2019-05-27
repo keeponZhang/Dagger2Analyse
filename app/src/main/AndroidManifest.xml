@@ -24,7 +24,7 @@
 		</activity>
 		<activity android:name=".chapter2.QualifierActivity">
 		</activity>
-		<activity android:name=".chapter3_1.ComponentActivity">
+		<activity android:name=".chapter3_1.SubComponentActivity">
 		</activity>
 		<activity android:name=".chapter4_1.ScopeActivity1"/>
 		<activity android:name=".chapter5.HomeActivity"/>

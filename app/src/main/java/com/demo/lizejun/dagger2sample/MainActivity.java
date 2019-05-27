@@ -26,7 +26,7 @@ public class MainActivity extends AppCompatActivity {
         titles.add("(3)   使用 @Inject 和 @Module 优先级");
         titles.add("(4)  依赖迷失");
         titles.add("(5) dependency");
-        titles.add("(3) 依赖、包含方式");
+        titles.add("(6) subCompoent");
         titles.add("(4) @Scope only scope");
         titles.add("(4) @Scope");
         titles.add("(5) Android 支持库");
