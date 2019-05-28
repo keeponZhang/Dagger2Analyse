@@ -40,9 +40,11 @@
 		</activity>
 		<activity android:name=".chapter4_0.test1.MyScopeActivity1">
 		</activity>
-		<activity android:name=".chapter4_0.test2.MyScopeActivity2"></activity>
-		<activity android:name=".chapter4_0.test2.MyScopeActivity2_1"></activity>
-		<activity android:name=".chapter4_0.test3.MyScopeActivity3"></activity>
+		<activity android:name=".chapter4_0.test2.MyScopeActivity2"/>
+		<activity android:name=".chapter4_0.test2.MyScopeActivity2_1"/>
+		<activity android:name=".chapter4_0.test3.MyScopeActivity3"/>
+		<activity android:name=".chapter4_0.test4.ComplextActivity">
+		</activity>
 	</application>
 
 </manifest>

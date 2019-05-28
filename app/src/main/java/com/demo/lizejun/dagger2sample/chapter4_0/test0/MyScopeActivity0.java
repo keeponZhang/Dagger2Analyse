@@ -23,8 +23,13 @@ public class MyScopeActivity0 extends AppCompatActivity {
 		DaggerPotComponent0.create().inject(this);
 		Log.e("TAG", "MyScopeActivity0 onCreate:"+pot.show()+"  pot="+pot);
 		Log.e("TAG", "MyScopeActivity0 onCreate:"+pot2.show()+"  pot2="+pot2);
+		PotComponent0 potComponent0 = DaggerPotComponent0.create();
+		Pot pot3 = potComponent0.getPot();
+		Pot pot4 = potComponent0.getPot();
+		//pot3跟pot4一样，跟pot1.pot2不一样
+		Log.e("TAG", "MyScopeActivity0 onCreate getPot pot3:"+ pot3+" pot4="+pot4);
 	}
-	//保持单例，同一个component,使用scope
+	//保持单例，同一个component实例,使用scope
 
 
 }

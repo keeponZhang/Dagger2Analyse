@@ -32,6 +32,7 @@ public class MainActivity extends AppCompatActivity {
         titles.add("(9) depency MyScopeActivity2");
         titles.add("(10) sub MyScopeActivity3");
         titles.add("(11) @ScopeApp  ScopeActivity ScopeFragment");
+        titles.add("(12) @Complex");
         titles.add("(4) @Scope");
         titles.add("(5) Android 支持库");
         MainAdapter mainAdapter = new MainAdapter(titles);
