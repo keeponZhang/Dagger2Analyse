@@ -33,7 +33,7 @@ public class ScopeActivity1 extends AppCompatActivity {
         setContentView(R.layout.activity_scope_only);
         getScopeActivityComponent().inject(this);
         TextView tvData = (TextView) findViewById(R.id.tv_scope_activity);
-        String result = "[ScopeActivity1 Space] \n ="
+        String result = "[MyScopeActivity1 Space] \n ="
                 + "\n\n" + "mScopeActivitySharedData1=" + mScopeActivitySharedData1
                 + "\n\n" + "mScopeActivitySharedData2=" + mScopeActivitySharedData2
                 + "\n\n" + "mScopeActivityNormalData1=" + mScopeActivityNormalData1

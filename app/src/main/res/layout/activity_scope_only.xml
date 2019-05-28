@@ -4,7 +4,7 @@
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.demo.lizejun.dagger2sample.chapter4.activity.ScopeActivity">
+    tools:context="com.demo.lizejun.dagger2sample.chapter4_2.activity.ScopeActivity">
     <TextView
         android:id="@+id/tv_scope_activity"
         android:gravity="center"

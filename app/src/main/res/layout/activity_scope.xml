@@ -7,7 +7,7 @@
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.demo.lizejun.dagger2sample.chapter4.activity.ScopeActivity">
+    tools:context="com.demo.lizejun.dagger2sample.chapter4_2.activity.ScopeActivity">
     <Button
         android:textAllCaps="false"
         android:onClick="getMyData"
@@ -22,7 +22,7 @@
         android:layout_height="wrap_content"/>
     <fragment
         android:id="@+id/fragment_scope"
-        android:name="com.demo.lizejun.dagger2sample.chapter4.fragment.ScopeFragment"
+        android:name="com.demo.lizejun.dagger2sample.chapter4_2.fragment.ScopeFragment"
         android:layout_height="match_parent"
         android:layout_width="match_parent"/>
 </LinearLayout>

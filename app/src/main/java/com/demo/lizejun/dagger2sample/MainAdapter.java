@@ -13,7 +13,11 @@ import com.demo.lizejun.dagger2sample.chapter1.YouXianjiActivity;
 import com.demo.lizejun.dagger2sample.chapter2.QualifierActivity;
 import com.demo.lizejun.dagger2sample.chapter3.DependencyComponentActivity;
 import com.demo.lizejun.dagger2sample.chapter3_1.SubComponentActivity;
-import com.demo.lizejun.dagger2sample.chapter4.activity.ScopeActivity;
+import com.demo.lizejun.dagger2sample.chapter4_2.activity.ScopeActivity;
+import com.demo.lizejun.dagger2sample.chapter4_0.test0.MyScopeActivity0;
+import com.demo.lizejun.dagger2sample.chapter4_0.test1.MyScopeActivity1;
+import com.demo.lizejun.dagger2sample.chapter4_0.test2.MyScopeActivity2;
+import com.demo.lizejun.dagger2sample.chapter4_0.test3.MyScopeActivity3;
 import com.demo.lizejun.dagger2sample.chapter5.HomeActivity;
 import com.demo.lizejun.dagger2sample.utils.Utils;
 
@@ -65,7 +69,19 @@ public class MainAdapter extends RecyclerView.Adapter<MainAdapter.MainViewHolder
                     case 6:
                         Utils.startActivity(v.getContext(), SubComponentActivity.class);
                         break;
-                    case 51:
+                    case 7:
+                        Utils.startActivity(v.getContext(), MyScopeActivity0.class);
+                        break;
+                    case 8:
+                        Utils.startActivity(v.getContext(), MyScopeActivity1.class);
+                        break;
+                    case 9:
+                        Utils.startActivity(v.getContext(), MyScopeActivity2.class);
+                        break;
+                    case 10:
+                        Utils.startActivity(v.getContext(), MyScopeActivity3.class);
+                        break;
+                    case 11:
                         Utils.startActivity(v.getContext(), ScopeActivity.class);
                         break;
                     case 61:

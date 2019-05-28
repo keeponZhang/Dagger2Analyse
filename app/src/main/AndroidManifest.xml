@@ -4,7 +4,7 @@
 
 	<!-- application name 要改变 chapter4和chapter5 -->
 	<application
-		android:name=".chapter4.app.ScopeApp"
+		android:name=".chapter4_2.app.ScopeApp"
 		android:allowBackup="true"
 		android:icon="@mipmap/ic_launcher"
 		android:label="@string/app_name"
@@ -20,7 +20,7 @@
 		</activity>
 		<activity android:name=".chapter1.YouXianjiActivity">
 		</activity>
-		<activity android:name=".chapter4.activity.ScopeActivity">
+		<activity android:name=".chapter4_2.activity.ScopeActivity">
 		</activity>
 		<activity android:name=".chapter2.QualifierActivity">
 		</activity>
@@ -36,6 +36,13 @@
 		</activity>
 		<activity android:name=".chapter3.other.DependencyComponentActivity2">
 		</activity>
+		<activity android:name=".chapter4_0.test0.MyScopeActivity0">
+		</activity>
+		<activity android:name=".chapter4_0.test1.MyScopeActivity1">
+		</activity>
+		<activity android:name=".chapter4_0.test2.MyScopeActivity2"></activity>
+		<activity android:name=".chapter4_0.test2.MyScopeActivity2_1"></activity>
+		<activity android:name=".chapter4_0.test3.MyScopeActivity3"></activity>
 	</application>
 
 </manifest>
