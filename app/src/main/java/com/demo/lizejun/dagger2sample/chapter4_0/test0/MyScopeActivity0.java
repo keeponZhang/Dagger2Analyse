@@ -20,7 +20,7 @@ public class MyScopeActivity0 extends AppCompatActivity {
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_scope0);
-		DaggerPotComponent0.create().inject(this);
+//		DaggerPotComponent0.create().inject(this);
 		Log.e("TAG", "MyScopeActivity0 onCreate:"+pot.show()+"  pot="+pot);
 		Log.e("TAG", "MyScopeActivity0 onCreate:"+pot2.show()+"  pot2="+pot2);
 		PotComponent0 potComponent0 = DaggerPotComponent0.create();

@@ -5,6 +5,7 @@ import dagger.Component;
 /**
  * createBy	 keepon
  */
+//DaggerComplexComponent  Builder会提供flowerComponent,complexModule方法
 @Component(dependencies = FlowerComponent.class,modules = ComplexModule.class)
 public interface ComplexComponent {
 	void inject(ComplextActivity complextActivity);

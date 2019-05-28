@@ -7,7 +7,7 @@ public class LocalSource03 {
 
 	private String mName;
 
-	@Inject
+	@Inject //生成的factory在用create创建实例是需要provider，这个provider一般是module里面的方法自动生成的factory
 	public LocalSource03(String name) {
 		mName = name;
 	}
