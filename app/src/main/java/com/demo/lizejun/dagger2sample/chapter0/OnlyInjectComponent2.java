@@ -4,8 +4,8 @@ import android.app.Activity;
 
 import dagger.Component;
 
-@Component()  //Component无内容，DataRepository_MembersInjector类的create(Provider<LocalSource02> mLocalSourceProvider)方法只有一个参数
+@Component()
 public interface OnlyInjectComponent2 {
-     //
+     //不会生成MembersInjector
      void inject(Activity activity);
 }

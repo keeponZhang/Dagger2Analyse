@@ -20,6 +20,8 @@
 		</activity>
 		<activity android:name=".chapter1.YouXianjiActivity">
 		</activity>
+		<activity android:name=".chapter0_2.OnlyInjectYoucan2Activity">
+		</activity>
 		<activity android:name=".chapter4_2.activity.ScopeActivity">
 		</activity>
 		<activity android:name=".chapter2.QualifierActivity">
