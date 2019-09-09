@@ -16,7 +16,7 @@ public interface FuComponent {
 //2.完成依赖注入。
 //        subSourceComponent.inject(this);
 
-
+//3.调用initialize方法
 //    private void initialize(final DaggerFuComponent.Builder builder) {
 //
 //        this.provideFuSourceProvider = FuModule_ProvideFuSourceFactory.create(builder.fuModule);
@@ -25,7 +25,7 @@ public interface FuComponent {
 //                FuComponentActivity_MembersInjector.create(provideFuSourceProvider);
 //    }
 
-//跟前面一样，生成的DaggerFuComponent会生成etSubSourceComponent方法
+//跟前面一样，生成的DaggerFuComponent会生成getSubSourceComponent方法
 //    @Override
 //    public SubComponent getSubSourceComponent() {
 //        return new DaggerFuComponent.SubComponentImpl();

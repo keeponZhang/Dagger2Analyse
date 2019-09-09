@@ -5,7 +5,7 @@ import com.demo.lizejun.dagger2sample.chapter3.DependencyComponent0;
 
 import dagger.Component;
 
-//SourceComponent依赖 DependencyComponent0
+//SourceComponent依赖 DependencyComponent0和DependencyComponent1
 @Component(dependencies = {DependencyComponent0.class,DependencyComponent1.class})
 public interface SourceComponent1 {
      void inject(DependencyComponentActivity2 activity);

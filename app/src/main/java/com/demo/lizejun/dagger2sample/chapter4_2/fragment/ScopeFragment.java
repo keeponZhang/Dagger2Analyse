@@ -33,6 +33,8 @@ public class ScopeFragment extends Fragment {
 
     @Inject
     ScopeFragmentData mScopeFragmentData;
+    @Inject
+    ScopeFragmentData mScopeFragmentData2;
 
     @Override
     public void onAttach(Context context) {
@@ -49,7 +51,8 @@ public class ScopeFragment extends Fragment {
         String result = "[ScopeFragment Space] \n mScopeAppData=" + mScopeAppData
                 + "\n\n" + "mScopeActivitySharedData1=" + mScopeActivitySharedData
                 + "\n\n" + "ScopeActivityNormalData1=" + ScopeActivityNormalData
-                + "\n\n" + "mScopeFragmentData=" + mScopeFragmentData;
+                + "\n\n" + "mScopeFragmentData=" + mScopeFragmentData
+                + "\n\n" + "mScopeFragmentData2=" + mScopeFragmentData2;
         tv.setText(result);
         return rootView;
     }

@@ -38,14 +38,14 @@
 		</activity>
 		<activity android:name=".chapter3.other.DependencyComponentActivity2">
 		</activity>
-		<activity android:name=".chapter4_0.test0.MyScopeActivity0">
+		<activity android:name=".scope.test0.MyScopeActivity0">
 		</activity>
-		<activity android:name=".chapter4_0.test1.MyScopeActivity1">
+		<activity android:name=".scope.test1.MyScopeActivity1">
 		</activity>
-		<activity android:name=".chapter4_0.test2.MyScopeActivity2"/>
-		<activity android:name=".chapter4_0.test2.MyScopeActivity2_1"/>
-		<activity android:name=".chapter4_0.test3.MyScopeActivity3"/>
-		<activity android:name=".chapter4_0.test4.ComplextActivity">
+		<activity android:name=".scope.test2.MyScopeActivity2"/>
+		<activity android:name=".scope.test2.MyScopeActivity2_1"/>
+		<activity android:name=".scope.test3.MyScopeActivity3"/>
+		<activity android:name=".scope.test4.ComplextActivity">
 		</activity>
 	</application>
 

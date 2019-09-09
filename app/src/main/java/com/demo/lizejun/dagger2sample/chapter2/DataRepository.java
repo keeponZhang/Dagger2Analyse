@@ -6,6 +6,7 @@ import javax.inject.Inject;
 public class DataRepository {
 
     @Inject
+    //使用@Named也可以解决依赖注入迷失
 //    @Named("Local")
     @Local
     Source mLocalSource;

@@ -13,12 +13,12 @@ import com.demo.lizejun.dagger2sample.chapter1.YouXianjiActivity;
 import com.demo.lizejun.dagger2sample.chapter2.QualifierActivity;
 import com.demo.lizejun.dagger2sample.chapter3.DependencyComponentActivity;
 import com.demo.lizejun.dagger2sample.chapter3_1.SubComponentActivity;
-import com.demo.lizejun.dagger2sample.chapter4_0.test4.ComplextActivity;
+import com.demo.lizejun.dagger2sample.scope.test4.ComplextActivity;
 import com.demo.lizejun.dagger2sample.chapter4_2.activity.ScopeActivity;
-import com.demo.lizejun.dagger2sample.chapter4_0.test0.MyScopeActivity0;
-import com.demo.lizejun.dagger2sample.chapter4_0.test1.MyScopeActivity1;
-import com.demo.lizejun.dagger2sample.chapter4_0.test2.MyScopeActivity2;
-import com.demo.lizejun.dagger2sample.chapter4_0.test3.MyScopeActivity3;
+import com.demo.lizejun.dagger2sample.scope.test0.MyScopeActivity0;
+import com.demo.lizejun.dagger2sample.scope.test1.MyScopeActivity1;
+import com.demo.lizejun.dagger2sample.scope.test2.MyScopeActivity2;
+import com.demo.lizejun.dagger2sample.scope.test3.MyScopeActivity3;
 import com.demo.lizejun.dagger2sample.chapter5.HomeActivity;
 import com.demo.lizejun.dagger2sample.utils.Utils;
 
